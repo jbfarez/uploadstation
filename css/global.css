@@ -1,0 +1,47 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  background-color: white;
+  font-family: 'Lucida Grande', Tahoma, Arial, Helvetica, sans-serif;
+}
+
+div#main {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: white;
+  z-index: 1;!important;
+  position: relative;
+}
+
+div#header {
+  width: 940px;
+  height: 79px;
+  margin: 15px 15px;
+  background :url(../static/images/banniere.jpg) left no-repeat;
+}
+
+div#header a {
+  display: block;
+  width: 241px;
+  height: 79px;
+  background: url(../static/images/logo.png) right no-repeat;
+  float: right;
+}
+
+div#uploadForm {
+  margin: 15px 15px;
+}
+
+div#footer {
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 10px;
+  clear: both;
+}
